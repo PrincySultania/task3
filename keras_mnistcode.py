@@ -69,4 +69,4 @@ out.write('\nAccuracy achieved:')
 out.write(str(score[1]))
 out.close()
 
-print("done")[D[C
+print("done")
