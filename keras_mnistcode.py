@@ -13,7 +13,7 @@ epochs = int(b.read())
 b.close()
 
 a = open('/deeplearning/inoutepoch.txt','w')
-a.write(int(epochs))
+a.write(str(epochs))
 a.close()
 # input image dimensions
 img_rows, img_cols = 28, 28
@@ -80,3 +80,5 @@ print("new attempt")
 print("...")
 
 print("!")
+
+print("!!")
