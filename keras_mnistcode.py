@@ -9,7 +9,8 @@ batch_size = 128
 num_classes = 10
 epochs = 1
 b = open('/deeplearning/inoutepoch.txt','r')
-epochs = int(float(b.read()))
+epochs = b.read()
+epochs = int(epochs)
 b.close()
 
 a = open('/deeplearning/inoutepoch.txt','w')
@@ -70,3 +71,5 @@ out.write(str(score[1]))
 out.close()
 
 print("done")
+
+print("...")
