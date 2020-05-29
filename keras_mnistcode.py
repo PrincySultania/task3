@@ -9,7 +9,7 @@ batch_size = 128
 num_classes = 10
 epochs = 1
 b = open('/deeplearning/inoutepoch.txt','r')
-epochs = int(b.read())
+epochs = int(float(b.read()))
 b.close()
 
 a = open('/deeplearning/inoutepoch.txt','w')
@@ -84,3 +84,5 @@ print("!")
 print("!!")
 
 print("..")
+
+print("//")[D..[C[C
